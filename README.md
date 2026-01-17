@@ -1,11 +1,11 @@
-# 🏬 OmniMart Sales & Customer Analytics Project (Excel, Power Query)
+<h1 align="center">🏬 OmniMart Sales & Customer Analytics Project (Excel, Power Query)</h1>
 
-An end-to-end Excel and Power Query analytics project analyzing OmniMart’s sales performance, customer segmentation, and churn patterns.  
-This project demonstrates how Excel can be used as a complete analytics tool — from data transformation to insight generation and storytelling through dashboards.
+<p align="Left">An end-to-end Excel and Power Query analytics project analyzing OmniMart’s sales performance, customer segmentation, and churn patterns.  
+This project demonstrates how Excel can be used as a complete analytics tool. From data transformation to insight generation and storytelling through dashboards.</p>
 
 ---
 
-## 📘 OVERVIEW
+### OVERVIEW -  
 The OmniMart dataset contained over **60,000 transactional records** across **four relational tables** — Customer, Product, Sales Territory, and Fact_Internet_Sales — covering the period **2005 to 2008**.
 
 The goal was to transform raw data into actionable insights that would help OmniMart:
@@ -16,7 +16,7 @@ The goal was to transform raw data into actionable insights that would help Omni
 
 ---
 
-## 🌍 BUSINESS CONTEXT
+### BUSINESS CONTEXT -
 OmniMart is a multinational retail supermarket dealing in a wide range of consumer goods, from groceries and electronics to household essentials.  
 Despite generating over **$50 million annually** and expanding its customer base by **1,023%** between 2005–2008, the company faced a significant **customer retention problem**.
 
@@ -28,7 +28,7 @@ This project explores how data analytics can help OmniMart increase its active c
 
 ---
 
-## 🎯 PROJECT OBJECTIVE
+### PROJECT GOAL -  
 To perform a complete **data transformation, analysis, and visualization** workflow in Excel to:
 1. Identify churn patterns and customer risk levels  
 2. Discover top-performing countries, products, and customer groups  
@@ -37,7 +37,7 @@ To perform a complete **data transformation, analysis, and visualization** workf
 
 ---
 
-## 🧮 DATA PREPARATION & TRANSFORMATION (Power Query)
+### DATA PREPARATION & TRANSFORMATION (Power Query)
 The raw dataset was cleaned, merged, and enhanced in **Power Query** using four tables:
 - **Customer Table:** demographic details (name, gender, education, income, etc.)  
 - **Product Table:** product name, cost, and price details  
@@ -77,7 +77,7 @@ Both dashboards were styled for clarity and usability, featuring **BANS/KPIs**, 
 
 ---
 
-## 💡 KEY INSIGHTS
+### KEY INSIGHTS
 
 ### 🔹 Sales Insights
 - OmniMart generated **$307.1M** in revenue and **$126.3M** in profit between 2005–2008.  
@@ -94,7 +94,7 @@ Both dashboards were styled for clarity and usability, featuring **BANS/KPIs**, 
 
 ---
 
-## 🧠 CHURN ANALYSIS MODEL
+### CHURN ANALYSIS MODEL
 Churn risk was determined using **percentile segmentation** on the “Days Since Last Purchase” metric.
 
 | Percentile | Days Since Last Purchase | Category        | Description |
@@ -107,7 +107,7 @@ This helped classify each customer and identify segments needing re-engagement o
 
 ---
 
-## 🧩 BUSINESS RECOMMENDATIONS
+### BUSINESS RECOMMENDATIONS
 - Introduce **loyalty and reward programs** to increase repeat purchases.  
 - Use **personalized marketing** (emails, discounts) to re-engage at-risk customers.  
 - Conduct **customer satisfaction surveys** to identify pain points.  
@@ -128,7 +128,7 @@ If OmniMart can increase active customers from 21% to 50%, revenue could grow by
 
 ---
 
-## 🧰 TOOLS & SKILLS USED
+### TOOLS & SKILLS USED
 - Microsoft Excel  
 - Power Query  
 - Pivot Tables  
@@ -158,7 +158,7 @@ If OmniMart can increase active customers from 21% to 50%, revenue could grow by
 
 ---
 
-## 🧩 CONCLUSION
+### CONCLUSION
 This project demonstrates how Excel, when combined with Power Query and structured thinking, can uncover meaningful business insights beyond just numbers.  
 It highlights that **revenue growth doesn’t always come from new customers — it often lies in keeping the ones you already have.**
 
@@ -168,7 +168,5 @@ It highlights that **revenue growth doesn’t always come from new customers —
 👤 **Okoli Ebuka Francis**  
 📍 Lagos, Nigeria  
 💼 Data Analyst | Excel | SQL | Power BI | Storytelling  
-🔗 [LinkedIn](https://linkedin.com/in/ebukaokoli) | [Portfolio](#) | [GitHub](https://github.com/EbukaOkoli01)
-
----
+🔗 [LinkedIn](https://linkedin.com/in/ebukaokoli)
 
