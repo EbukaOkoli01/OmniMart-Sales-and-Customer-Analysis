@@ -1,10 +1,8 @@
 <h1 align="center">🏬 OmniMart Sales & Customer Analytics Project (Excel, Power Query)</h1>
 
-<p align="Left">An end-to-end Excel and Power Query analytics project analyzing OmniMart’s sales performance, customer segmentation, and churn patterns.  
-This project demonstrates how Excel can be used as a complete analytics tool. From data transformation to insight generation and storytelling through dashboards.</p>
-
----
-
+An end-to-end Excel and Power Query analytics project analyzing OmniMart’s sales performance, customer segmentation, and churn patterns.  
+This project demonstrates how Excel can be used as a complete analytics tool. From data transformation to insight generation and storytelling through dashboards.                
+##
 ### OVERVIEW -  
 The OmniMart dataset contained over **60,000 transactional records** across **four relational tables** — Customer, Product, Sales Territory, and Fact_Internet_Sales — covering the period **2005 to 2008**.
 
@@ -13,8 +11,6 @@ The goal was to transform raw data into actionable insights that would help Omni
 - Identify customer churn and behavioral patterns  
 - Improve retention through targeted strategies  
 - Build interactive dashboards for decision-making  
-
----
 
 ### BUSINESS CONTEXT -
 OmniMart is a multinational retail supermarket dealing in a wide range of consumer goods, from groceries and electronics to household essentials.  
@@ -26,8 +22,6 @@ Despite generating over **$50 million annually** and expanding its customer base
 
 This project explores how data analytics can help OmniMart increase its active customer base, reduce churn, and sustain long-term revenue growth.
 
----
-
 ### PROJECT GOAL -  
 To perform a complete **data transformation, analysis, and visualization** workflow in Excel to:
 1. Identify churn patterns and customer risk levels  
@@ -35,9 +29,7 @@ To perform a complete **data transformation, analysis, and visualization** workf
 3. Visualize key sales and retention KPIs using dynamic dashboards  
 4. Recommend data-driven strategies to boost revenue and customer engagement  
 
----
-
-### DATA PREPARATION & TRANSFORMATION (Power Query)
+### DATA PREPARATION & TRANSFORMATION (Power Query) -
 The raw dataset was cleaned, merged, and enhanced in **Power Query** using four tables:
 - **Customer Table:** demographic details (name, gender, education, income, etc.)  
 - **Product Table:** product name, cost, and price details  
@@ -54,10 +46,8 @@ The raw dataset was cleaned, merged, and enhanced in **Power Query** using four 
   - **Days Since Last Purchase** using `MAXIFS` and `DAYS` functions  
   - **Customer Status** (Active, At Risk, About to Churn) via **Percentile Analysis**  
   - **Age Group** and **Income Category** using nested `IF` logic  
-
----
-
-## 📊 DASHBOARD DESIGN
+##
+### 📊 DASHBOARD DESIGN
 
 ### 🧾 Sales Dashboard
 Focused on performance metrics:
@@ -74,9 +64,7 @@ Focused on customer behavior:
 - Interactive slicers for deeper exploration  
 
 Both dashboards were styled for clarity and usability, featuring **BANS/KPIs**, color-coded visuals, and dynamic slicers.
-
----
-
+##
 ### KEY INSIGHTS
 
 ### 🔹 Sales Insights
@@ -91,9 +79,7 @@ Both dashboards were styled for clarity and usability, featuring **BANS/KPIs**, 
 - **Bachelor’s degree holders** had the highest average revenue per customer ($19.2K).  
 - Customers aged **30–39** generated the most revenue (26%).  
 - **Married customers** contributed slightly higher revenue (+2.4%) than singles.  
-
----
-
+##
 ### CHURN ANALYSIS MODEL
 Churn risk was determined using **percentile segmentation** on the “Days Since Last Purchase” metric.
 
@@ -104,9 +90,7 @@ Churn risk was determined using **percentile segmentation** on the “Days Since
 | > 75th      | > 241 days               | About to Churn  | Dormant customers |
 
 This helped classify each customer and identify segments needing re-engagement or loyalty strategies.
-
----
-
+##
 ### BUSINESS RECOMMENDATIONS
 - Introduce **loyalty and reward programs** to increase repeat purchases.  
 - Use **personalized marketing** (emails, discounts) to re-engage at-risk customers.  
@@ -115,19 +99,15 @@ This helped classify each customer and identify segments needing re-engagement o
 - Continuously monitor churn metrics via dashboards.  
 
 If OmniMart can increase active customers from 21% to 50%, revenue could grow by **25%** within the next 12 months.
-
----
-
-## 📈 METRICS TO TRACK
+##
+### 📈 METRICS TO TRACK
 - Active Customer Rate  
 - At-Risk Customer Rate  
 - Churn Rate  
 - Retention Rate  
 - Average Revenue per Customer  
 - Monthly and Yearly Revenue Growth  
-
----
-
+##
 ### TOOLS & SKILLS USED
 - Microsoft Excel  
 - Power Query  
@@ -136,37 +116,30 @@ If OmniMart can increase active customers from 21% to 50%, revenue could grow by
 - Percentile Analysis  
 - Dashboard Design & Visualization  
 - Business Storytelling  
-
----
-
-## 📂 REPOSITORY CONTENT
+##
+### 📂 REPOSITORY CONTENT
 | Folder | Description |
 |--------|-------------|
 | `/datasets` | Raw and cleaned data files |
 | `/dashboard` | Excel dashboards (Sales & Customer) |
 | `/documentation` | PDF report and methodology explanation |
 | `/images` | Dashboard and insight screenshots |
-
----
-
-## 📊 RESULT IMAGES
-### 🧾 Sales Dashboard  
+##
+### 📊 RESULT IMAGES
+ 🧾 Sales Dashboard  
 *(Insert Screenshot Here)*  
 
-### 👥 Customer Dashboard  
+ 👥 Customer Dashboard  
 *(Insert Screenshot Here)*  
-
----
-
+##
 ### CONCLUSION
 This project demonstrates how Excel, when combined with Power Query and structured thinking, can uncover meaningful business insights beyond just numbers.  
 It highlights that **revenue growth doesn’t always come from new customers — it often lies in keeping the ones you already have.**
 
 ---
 
-### 💬 Author
+### Author
 👤 **Okoli Ebuka Francis**  
-📍 Lagos, Nigeria  
 💼 Data Analyst | Excel | SQL | Power BI | Storytelling  
 🔗 [LinkedIn](https://linkedin.com/in/ebukaokoli)
 
