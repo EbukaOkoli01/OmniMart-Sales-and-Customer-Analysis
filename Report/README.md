@@ -5,7 +5,7 @@ This folder contains the full business analysis report for the **OmniMart Sales 
 The report provides a detailed walkthrough of:
 - Problem Background and Business Context  
 - Data Preparation and Transformations (Power Query steps)  
-- Dashboard Development using Excel  
+- Dashboard Development using Excel
 - Key Insights and Findings  
 - Issues Identified and Recommended Solutions  
 - Metrics to Track and Future Outlook  
